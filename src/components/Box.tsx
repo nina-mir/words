@@ -7,24 +7,23 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 
-
-
 interface BoxProps {
-    author: string;
-    title: string;
-    outletName: string;
-    date?: string;
-    issueVolume?: string;
-    genre: string;
-    image: string;
-    link: string;
+    firstName: string,
+    lastName: string,
+    title: string,
+    year: string,
+    platform: string,
+    date: string,
+    genre: string,
+    url: string,
+    volume?: string,
 }
 
 
-const Box = (props: BoxProps) => {
+const Box: React.FC<BoxProps> = (props: BoxProps) => {
     return (
         <Card className="
-        w-9/10 
+        w-6/10 
         h-30
         bg-stone-300
         drop-shadow-slate-50
@@ -35,16 +34,19 @@ const Box = (props: BoxProps) => {
         md:w-2/3 
         md:mt-10">
             <CardContent>
-                {props.author}, {props.title}, {props.outletName}, {props.date}, {props.genre}, {props.image}
+                {props.lastName}, {props.firstName}. {props.title}, {props.platform},
+                {props.volume ? ` ${props.volume},` : ','}
+                {props.date}, {props.genre}
+                <p className="text-sm wrap-break-word">{props.url}</p>
             </CardContent>
-            <CardFooter className="bg-stone-500 max-h-max block p-3 rounded-b-xl">
-                <p>Card Footer</p>
-            </CardFooter>
+         
         </Card>
-
-
-
     )
 }
 
 export default Box;
+
+
+//    {/* <CardFooter className="bg-stone-500 max-h-max block p-3 rounded-b-xl">
+//                 <p>Card Footer</p>
+//             </CardFooter> */}

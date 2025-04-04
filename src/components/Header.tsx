@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                 left-0 
                 top-20 
                 size-fit
-                rotate-2
+                -rotate-1
                 p-6
                 hue-rotate-180
                 border-none
@@ -37,7 +37,8 @@ const Header: React.FC = () => {
                 ">
                 public
 
-                <ShadowIcon className="inline bg-yellow-100 rounded-full" width={4} height={4} /> 
+                <ShadowInnerIcon className="inline rounded-full m-1 animate-spin-slow" 
+                width={20} height={20} stroke="yellow" strokeWidth={0.7} /> 
                 works
                 <HeartIcon stroke="yellow" strokeWidth={0.7} width={30} height={30} 
                 className="
