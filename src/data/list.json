@@ -1,5 +1,19 @@
 [
-    {
+  {
+    "id":1,
+    "firstName": "Nina Ruth",
+    "lastName": "Mir",
+    "title": "Trans Power and Unity",
+    "year": "2025",
+    "platform": "48 Hills",
+    "date": "31 Mar. 2025",
+    "genre": "شعر, poem",
+    "url": "https://48hills.org/2025/03/poem-trans-power-and-unity-transgender-day-of-visibility-nina-ruth-mir/",
+    "volume": "",
+    "artWorkURL":"48hills_art_fpr_react.png"
+  },  
+  {
+      "id":2,
       "firstName": "Nina Ruth",
       "lastName": "Mir",
       "title": "My Very Own Guernica",
@@ -8,9 +22,11 @@
       "date": "July 7, 2024",
       "genre": "شعر, poem",
       "url": "https://www.theleftberlin.com/my-very-own-guernica/",
-      "volume": ""
+      "volume": "",
+      "artWorkURL": "left_berlin_react.png"
     },
     {
+      "id":3,
       "firstName": "Nina Ruth",
       "lastName": "Mir",
       "title": "Farsi is killing me",
@@ -19,9 +35,11 @@
       "date": "Spring 2023",
       "genre": "مقاله, essay",
       "url": "https://www.neworleansreview.org/farsi-is-killing-me/",
-      "volume": "Issue 50"
+      "volume": "Issue 50",
+      "artWorkURL":"NOR_artwork_react.png"
     },
     {
+      "id":4,
       "firstName": "Nina Ruth",
       "lastName": "Mir",
       "title": "Prophet Nina",
@@ -30,17 +48,7 @@
       "date": "Spring/Summer 2023",
       "genre": "مقاله, essay",
       "url": "https://evergreenreview.com/read/prophet-nina/",
-      "volume": "The Iran Issue"
-    },
-    {
-      "firstName": "Nina Ruth",
-      "lastName": "Mir",
-      "title": "Trans Power and Unity",
-      "year": "2025",
-      "platform": "48 Hills",
-      "date": "31 Mar. 2025",
-      "genre": "شعر, poem",
-      "url": "https://48hills.org/2025/03/poem-trans-power-and-unity-transgender-day-of-visibility-nina-ruth-mir/",
-      "volume": ""
+      "volume": "The Iran Issue",
+      "artWorkURL":"evergreen_react.png"
     }
   ]

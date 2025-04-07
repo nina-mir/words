@@ -133,6 +133,13 @@ body {
       transform: rotate(3deg);
     }
   }
+
+  --animate-spin-slow: spin-slow 3s linear infinite;
+  @keyframes spin-slow {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 
