@@ -1,54 +1,29 @@
-# React + TypeScript + Vite
+# ✨ Nina Ruth Mir — Published Work
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a minimalist static site built with **TypeScript**, **React**, and **Tailwind CSS** to present a curated archive of my published essays and poems.
 
-Currently, two official plugins are available:
+I intend to add more projects and resources to this application. Actually, I will be adding React Router very soon to the project and excited about it!😸
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explore themes of identity, resistance, language, memory, and power — all rendered in both poetry and essay form, across multiple international platforms.
 
-## Expanding the ESLint configuration
+## 🌐 [Live Site](https://nina-mir.github.io/words/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📚 Featured Work
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Title                     | Year | Genre        | Platform           | Link                                                                                 |
+|--------------------------|------|--------------|--------------------|--------------------------------------------------------------------------------------|
+| **Trans Power and Unity**      | 2025 | شعر, poem    | 48 Hills           | [Read](https://48hills.org/2025/03/poem-trans-power-and-unity-transgender-day-of-visibility-nina-ruth-mir/)        |
+| **My Very Own Guernica**       | 2024 | شعر, poem    | The Left Berlin    | [Read](https://www.theleftberlin.com/my-very-own-guernica/)                         |
+| **Farsi is killing me**        | 2023 | مقاله, essay | New Orleans Review | [Read](https://www.neworleansreview.org/farsi-is-killing-me/)                       |
+| **Prophet Nina**               | 2023 | مقاله, essay | Evergreen Review   | [Read](https://evergreenreview.com/read/prophet-nina/)                              |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React** (with Vite)
+- **TypeScript**
+- **Tailwind CSS**
+- **JSON-based content** for easy updates
+- Responsive & accessible design
+
+
