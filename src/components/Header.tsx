@@ -1,4 +1,4 @@
-import { ShadowIcon, ShadowInnerIcon, HeartIcon } from "@radix-ui/react-icons"
+import { ShadowInnerIcon, HeartIcon } from "@radix-ui/react-icons"
 import Nav from '@/components/Nav'
 
 const Header: React.FC = () => {
