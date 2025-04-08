@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
             <div className="container-wrapper">
                 <div className="container py-2">
                     <div className="flex flex-col text-balance text-center text-md leading-loose text-muted-foreground md:text-center">
-                        <span className="text-black">Built by Nina Ruth Mir 
+                        <span className="text-black">👷🏽‍♀️🔨🪛🔩⛏️ by Nina Ruth Mir 
                         | <a href="https://twitter.com/transbelly_nina"><TwitterLogoIcon className="w-4 h-auto inline-block"/></a> | &copy; 2025</span>
                         <a href="https://github.com/nina-mir/words" className="text-stone-700">
                             Source code available on GitHub.
