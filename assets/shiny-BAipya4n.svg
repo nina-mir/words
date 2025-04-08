@@ -1,0 +1,20 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shinySilver" cx="30%" cy="30%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#da70d6"/>
+      <stop offset="40%" stop-color="#da70d6"/>
+      <stop offset="50%" stop-color="#da70d6"/>
+      <stop offset="60%" stop-color="#da70d6"/>
+      <stop offset="70%" stop-color="#a0a0a0"/>
+      <stop offset="100%" stop-color="#da70d6"/>
+    </radialGradient>
+    <filter id="shine" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feSpecularLighting surfaceScale="5" specularConstant="1" specularExponent="20" lighting-color="#da70d6" in="blur" result="specOut">
+        <fePointLight x="10" y="10" z="20"/>
+      </feSpecularLighting>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="litPaint"/>
+    </filter>
+  </defs>
+  <circle cx="15" cy="15" r="14" fill="url(#shinySilver)" filter="url(#shine)" stroke="#606060" stroke-width="0.1"/>
+</svg>
