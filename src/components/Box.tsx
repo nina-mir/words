@@ -41,8 +41,8 @@ const Box: React.FC<BoxProps> = (props: BoxProps) => {
                         <a href={`${props.url}`} className="block">
 
             <CardContent className="flex flex-col gap-0 w-full pt-3"> {/* Added padding */}
-                <div className="text-xl flex flex-col">
-                    {props.lastName}, {props.firstName}. "{props.title}.", {props.platform},
+                <div className="text-xl flex flex-col font-new-rubrik">
+                    {props.lastName}, {props.firstName}. "{props.title}." {props.platform},
                     {props.volume ? ` ${props.volume}, ` : ' '}
                     {props.date}
                     <p className="text-sm break-words">{props.url}</p> {/* Changed to break-words */}
