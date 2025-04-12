@@ -2,34 +2,36 @@ import React from 'react';
 import {
     NavigationMenu,
     NavigationMenuItem,
-    NavigationMenuLink,
+    // NavigationMenuLink,
     NavigationMenuList,
 } from "@/components/ui/navigation-menu"
 
+import { Link } from 'react-router-dom'
 // Define custom styles using Tailwind classes
-const navItemStyles ="hover:bg-stone-500 hover:text-white md:text-xl ml-1 px-4 py-2 rounded transition-colors duration-200 font-new-rubrik";
+const navItemStyles = "hover:bg-stone-500 hover:text-white md:text-xl ml-1 px-4 py-2 rounded transition-colors duration-200 font-new-rubrik";
 
 const Nav: React.FC = () => {
     return (
-        <NavigationMenu>
-            <NavigationMenuList className='text-2xl'>
-                <NavigationMenuItem className="ml-0">
-                    <NavigationMenuLink className={navItemStyles}>
-                        bio
-                    </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem className="ml-12">
-                    <NavigationMenuLink className={navItemStyles}>
-                        obsessions
-                    </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem className="ml-12">
-                    <NavigationMenuLink className={navItemStyles}>
-                        projects
-                    </NavigationMenuLink>
-                </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
+            <NavigationMenu>
+                <NavigationMenuList className='text-2xl'>
+                    <NavigationMenuItem className="ml-0">
+                        {/* <NavigationMenuLink className={navItemStyles}> */}
+                            <Link to={'/words/bio'}  className={navItemStyles}>bio</Link>
+                        {/* </NavigationMenuLink> */}
+                    </NavigationMenuItem>
+                    <NavigationMenuItem className="ml-12">
+                        {/* <NavigationMenuLink className={navItemStyles}> */}
+                            <Link to={'/words/obsessions'} className={navItemStyles}>obsessions</Link>
+                        {/* </NavigationMenuLink> */}
+                    </NavigationMenuItem>
+                    {/* <NavigationMenuItem className="ml-12">
+                        <NavigationMenuLink className={navItemStyles}>
+                            projects
+                        </NavigationMenuLink>
+                    </NavigationMenuItem> */}
+                </NavigationMenuList>
+
+            </NavigationMenu>
     )
 }
 
