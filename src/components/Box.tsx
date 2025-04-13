@@ -29,6 +29,7 @@ const Box: React.FC<BoxProps> = (props: BoxProps) => {
             w-8/10  
             max-w-full 
             bg-red-200
+            dark:bg-red-950
             drop-shadow-slate-50
             rounded-t-md 
             border-0
@@ -37,20 +38,24 @@ const Box: React.FC<BoxProps> = (props: BoxProps) => {
             md:mt-10
             overflow-hidden
             hover:shadow-amber-950
+            dark:text-white 
             ">
                         <a href={`${props.url}`} className="block">
 
             <CardContent className="flex flex-col gap-0 w-full pt-3"> {/* Added padding */}
-                <div className="text-xl flex flex-col font-new-rubrik">
+                <div className="text-lg flex flex-col font-new-rubrik">
                     {props.lastName}, {props.firstName}. "{props.title}." {props.platform},
                     {props.volume ? ` ${props.volume}, ` : ' '}
                     {props.date}
-                    <p className="text-sm break-words">{props.url}</p> {/* Changed to break-words */}
+                    <p className="text-stone-400 break-words">{props.url}</p> {/* Changed to break-words */}
                     <p className={`
             font-header 
             bg-amber-300
+            dark:bg-neutral-500
+            dark:text-shadow-sky-400
             w-fit
             rounded-4xl
+            dark:px-2
             px-1.5
             ${rotationCSS}
             `}>

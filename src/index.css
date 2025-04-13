@@ -1,6 +1,11 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@custom-variant dark (&:is(.dark *));
+/* @import "tw-animate-css"; */
+/* @custom-variant dark (&:is(.dark *)); */
+/*
+ (&:where(.dark, .dark *));  
+*/
+
+/* @custom-variant dark (prefers-color-scheme);  */
 
 
 /* font-family: new-rubrik-edge, sans-serif;
@@ -85,6 +90,7 @@ body {
 
 @theme inline {
   /* --font-gyst: "gyst-variable", "sans-serif"; */
+  --font-p22: p22-bifur-a, sans-serif;
   --shadow-3xl: 0 0 8px 8px black inset; 
   --font-anatol:anatol-mn, sans-serif;
   --font-new-rubrik: "new-rubrik-edge", "sans-serif";
@@ -147,6 +153,35 @@ body {
     to {
       transform: rotate(360deg);
     }
+  }
+
+  --animate-spin-slow-black: spin-slow 30s linear infinite; 
+  @keyframes spin-slow {
+
+    0%, 100% {
+      transform: rotate(360deg);
+      background-color: black;
+    }
+
+    25%{
+      background-color: black;
+      opacity: 0.8;
+      transform: rotate(60deg);
+    }
+
+    50%{
+      stroke: red;
+      background-color: pink;
+      opacity: 0.5;
+      transform: rotate(160deg);
+    }
+
+    75%{
+      background-color: brown;
+      opacity: 0.2;
+      transform: rotate(260deg);
+    }
+
   }
 }
 
