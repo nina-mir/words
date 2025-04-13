@@ -3,7 +3,6 @@ import {
 DoubleArrowLeftIcon, 
 ShadowIcon, 
 ShadowInnerIcon, 
-// EyeOpenIcon,
 ShadowOuterIcon 
 } from "@radix-ui/react-icons"
 import { Link } from 'react-router-dom'
