@@ -1,4 +1,4 @@
-import { ShadowInnerIcon, HeartIcon } from "@radix-ui/react-icons"
+// import { ShadowInnerIcon, HeartIcon } from "@radix-ui/react-icons"
 import Nav from '@/components/Nav'
 
 const Header: React.FC = () => {
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                     <span className="rotate-2 inline-block">nina</span>
                     <span> ruth mir</span>
                 </div>
-                <div
+                {/* <div
                     className="
                 tracking-widest
                 text-2xl
@@ -37,19 +37,19 @@ const Header: React.FC = () => {
                 -rotate-1
                 hue-rotate-180
                 text-start
-                ">
-                    public
+                "> */}
+                    {/* public */}
 
-                    <ShadowInnerIcon className="inline rounded-full m-1 animate-spin-slow"
+                    {/* <ShadowInnerIcon className="inline rounded-full m-1 animate-spin-slow"
                         width={20} height={20} stroke="yellow" strokeWidth={0.7} />
-                    works
-                    <HeartIcon stroke="yellow" strokeWidth={0.7} width={30} height={30}
+                    works */}
+                    {/* <HeartIcon stroke="yellow" strokeWidth={0.7} width={30} height={30}
                         className="
                 inline-block
                 animate-wiggle
                 "
-                    />
-                </div>
+                    /> */}
+                {/* </div> */}
             </div>
         </header>
     )
