@@ -8,18 +8,18 @@ const Header: React.FC = () => {
                 <Nav />
             </div>
             <div className="
-            text-stone-700
+            p-4
+            text-stone-900
             dark:text-white
             flex 
             flex-col
-            leading-[3]
             font-header 
             text-center 
             w-full 
             text-4xl
             md:text-5xl
             ">
-                <div className="md:tracking-widest">
+                <div>
                     <span className="rotate-2 inline-block">nina</span>
                     <span> ruth mir</span>
                 </div>
