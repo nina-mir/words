@@ -3,7 +3,7 @@ import Nav from '@/components/Nav'
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-stone-300 relative overflow-hidden dark:bg-stone-700 ">
+        <header className="bg-pink-500 relative overflow-hidden dark:bg-stone-700 ">
             <div className="relative w-full">
                 <Nav />
             </div>
