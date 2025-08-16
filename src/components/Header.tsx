@@ -4,6 +4,7 @@ import Nav from '@/components/Nav'
 const Header: React.FC = () => {
     return (
         <header className="bg-pink-500 relative overflow-hidden dark:bg-stone-700 ">
+        <div className="absolute inset-0 bg-[#f7f1f0] mix-blend-soft-light"></div>
             <div className="relative w-full">
                 <Nav />
             </div>
@@ -20,8 +21,7 @@ const Header: React.FC = () => {
             md:text-5xl
             ">
                 <div>
-                    <span className="rotate-2 inline-block">nina</span>
-                    <span> ruth mir</span>
+                    nina ruth mir
                 </div>
                 {/* <div
                     className="
