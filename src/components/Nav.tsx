@@ -37,39 +37,3 @@ const Nav: React.FC = () => {
 }
 
 export default Nav;
-
-
-// import {
-//     NavigationMenu,
-//     // NavigationMenuContent,
-//     // NavigationMenuIndicator,
-//     NavigationMenuItem,
-//     NavigationMenuLink,
-//     NavigationMenuList,
-//     // NavigationMenuTrigger,
-//     // NavigationMenuViewport,
-// } from "@/components/ui/navigation-menu"
-
-
-// const Nav: React.FC = () => {
-//     return (
-//         <NavigationMenu>
-//             <NavigationMenuList >
-//                 <NavigationMenuItem className="ml-0">
-//                     {/* <NavigationMenuTrigger>Item One</NavigationMenuTrigger> */}
-//                     {/* <NavigationMenuContent> */}
-//                     <NavigationMenuLink>bio</NavigationMenuLink>
-//                     {/* </NavigationMenuContent> */}
-//                 </NavigationMenuItem>
-//                 <NavigationMenuItem className="ml-12" >
-//                     <NavigationMenuLink >obsessions</NavigationMenuLink>
-//                 </NavigationMenuItem>
-//                 <NavigationMenuItem className="ml-12">
-//                     <NavigationMenuLink>projects</NavigationMenuLink>
-//                 </NavigationMenuItem>
-//             </NavigationMenuList>
-//         </NavigationMenu>
-//     )
-// }
-
-// export default Nav;
