@@ -10,17 +10,17 @@ const Footer: React.FC = () => {
          py-4 
          md:py-0 
          font-header 
-         bg-stone-400 
-         dark:bg-stone-800
+         bg-blue-400
         ">
             <div className="container-wrapper">
                 <div className="container py-2">
                     <div className="flex flex-col text-balance text-center text-md leading-loose 
                              text-muted-foreground md:text-center">
-                        <span className="text-black dark:text-pink-100">
+                        <span className="text-yellow-300">
                             <span className="text-lg bg-stone-500 rounded-l-full">
                                 👷🏽‍♀️✂️💄
-                            </span> by 
+                            </span> 
+                            <span className="text-pink-100">&nbsp;by&nbsp;</span>
                             <span className="text-yellow-200">
                                     Nina Ruth Mir 
                                 </span> 
