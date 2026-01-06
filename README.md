@@ -1,8 +1,6 @@
-# ✨ Nina Ruth Mir — Published Work
+# Nina Ruth Mir — Published Work
 
-This is a minimalist static site built with **TypeScript**, **React**, and **Tailwind CSS** to present a curated archive of my published essays and poems.
-
-I intend to add more projects and resources to this application. Actually, I will be adding React Router very soon to the project and excited about it!😸
+This is a minimalist static site built with **TypeScript**, **React**, and **Tailwind CSS** to present a curated archive of my published pieces and artwork.
 
 Explore themes of identity, resistance, language, memory, and power — all rendered in both poetry and essay form, across multiple international platforms.
 
